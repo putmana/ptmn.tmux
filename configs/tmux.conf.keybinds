@@ -1,0 +1,12 @@
+# ======== LEADER KEY ========
+set -g prefix C-s
+
+# ======== CONFIG RELOAD ========
+unbind r
+bind r source-file -F "#{@tmux-dir}/tmux.conf"
+
+# ======== PANE SPLITTING ========
+bind S-Left split-window -h
+bind S-Right split-window -h
+bind S-Up split-window -v
+bind S-Down split-window -v

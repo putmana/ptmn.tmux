@@ -1,0 +1,9 @@
+# ---- PLUGINS ----
+set -g @tpm_plugins '
+    tmux-plugins/tpm                    \
+    tmux-plugins/tmux-sensible          \
+    Chaitanyabsprip/tmux-harpoon        \
+    erikw/tmux-powerline                \
+'
+
+run -b "#{@tmux-dir}/plugins/tpm/tpm"
